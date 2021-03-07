@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{AE90F812-5346-4D54-84AB-C68E37BD0C82}</ProjectGuid>
+    <RootNamespace>Windows懒人命令集</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="10.Colorcpl.cpp" />
+    <ClCompile Include="11.Compmgmt.cpp" />
+    <ClCompile Include="12.Credwiz.cpp" />
+    <ClCompile Include="13.Comexp.cpp" />
+    <ClCompile Include="14.Dccw.cpp" />
+    <ClCompile Include="15.Devmgmt.cpp" />
+    <ClCompile Include="16.Desk_cpl.cpp" />
+    <ClCompile Include="17.Dfrgui.cpp" />
+    <ClCompile Include="18.Dfrg_Win7.cpp" />
+    <ClCompile Include="19.Dialer.cpp" />
+    <ClCompile Include="20.Diskmgmt.cpp" />
+    <ClCompile Include="21.DVDplay.cpp" />
+    <ClCompile Include="22.Dxdiag.cpp" />
+    <ClCompile Include="23.Eudcedit.cpp" />
+    <ClCompile Include="24.Eventvwr.cpp" />
+    <ClCompile Include="25.Explorer.cpp" />
+    <ClCompile Include="26.Firewall.cpp" />
+    <ClCompile Include="27.FXSCOVER.cpp" />
+    <ClCompile Include="28.Fsmgmt.cpp" />
+    <ClCompile Include="29.Gpedit.cpp" />
+    <ClCompile Include="30.Hdwwiz.cpp" />
+    <ClCompile Include="31.Inetcpl.cpp" />
+    <ClCompile Include="32.Intl.cpp" />
+    <ClCompile Include="33.Iexpress.cpp" />
+    <ClCompile Include="34.Joy.cpp" />
+    <ClCompile Include="35.Logoff.cpp" />
+    <ClCompile Include="36.Lusrmgr.cpp" />
+    <ClCompile Include="37.Lpksetup.cpp" />
+    <ClCompile Include="38.Magnify.cpp" />
+    <ClCompile Include="39.Mouse.cpp" />
+    <ClCompile Include="4.Control.cpp" />
+    <ClCompile Include="0.Command_Set.cpp" />
+    <ClCompile Include="2.Ipconfig.cpp" />
+    <ClCompile Include="40.Mmsys.cpp" />
+    <ClCompile Include="41.MdSched.cpp" />
+    <ClCompile Include="42.Mmc.cpp" />
+    <ClCompile Include="43.Msconfig.cpp" />
+    <ClCompile Include="44.Msdt.cpp" />
+    <ClCompile Include="45.Msinfo32.cpp" />
+    <ClCompile Include="46.Mspaint.cpp" />
+    <ClCompile Include="47.Msra.cpp" />
+    <ClCompile Include="48.Mstsc.cpp" />
+    <ClCompile Include="49.NAPCLCFG.cpp" />
+    <ClCompile Include="5.Cleanmgr.cpp" />
+    <ClCompile Include="50.Ncpa.cpp" />
+    <ClCompile Include="51.Narrator.cpp" />
+    <ClCompile Include="52.Netplwiz.cpp" />
+    <ClCompile Include="53.Netstat.cpp" />
+    <ClCompile Include="54.Notepad.cpp" />
+    <ClCompile Include="55.Nslookup.cpp" />
+    <ClCompile Include="56.Odbcad32.cpp" />
+    <ClCompile Include="57.OptionalFeatures.cpp" />
+    <ClCompile Include="58.Osk.cpp" />
+    <ClCompile Include="59.Perfmon.cpp" />
+    <ClCompile Include="6.Certmgr.cpp" />
+    <ClCompile Include="60.Printmanagement.cpp" />
+    <ClCompile Include="61.Powercfg.cpp" />
+    <ClCompile Include="62.Rasphone.cpp" />
+    <ClCompile Include="63.Recdisc.cpp" />
+    <ClCompile Include="64.Resmon.cpp" />
+    <ClCompile Include="65.Rstrui.cpp" />
+    <ClCompile Include="66.Regedit.cpp" />
+    <ClCompile Include="67.Regedt32.cpp" />
+    <ClCompile Include="68.Rsop.cpp" />
+    <ClCompile Include="69.Sdclt.cpp" />
+    <ClCompile Include="7.Charmap.cpp" />
+    <ClCompile Include="70.Secpol.cpp" />
+    <ClCompile Include="71.Services.cpp" />
+    <ClCompile Include="72.Sysedit.cpp" />
+    <ClCompile Include="73.Ciadv.cpp" />
+    <ClCompile Include="74.Shrpubw.cpp" />
+    <ClCompile Include="75.Sndvol32.cpp" />
+    <ClCompile Include="76.Taskmgr.cpp" />
+    <ClCompile Include="77.Packager.cpp" />
+    <ClCompile Include="78.Winver.cpp" />
+    <ClCompile Include="79.Clipbrd.cpp" />
+    <ClCompile Include="8.Shutdown.cpp" />
+    <ClCompile Include="80.Sndrec32.cpp" />
+    <ClCompile Include="81.Tree.cpp" />
+    <ClCompile Include="82.Dir.cpp" />
+    <ClCompile Include="83.Delete_C.cpp" />
+    <ClCompile Include="9.Lock.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="1.SystemInfo.cpp" />
+    <ClCompile Include="3.Appwiz.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="10.Colorcpl.h" />
+    <ClInclude Include="11.Compmgmt.h" />
+    <ClInclude Include="12.Credwiz.h" />
+    <ClInclude Include="13.Comexp.h" />
+    <ClInclude Include="14.Dccw.h" />
+    <ClInclude Include="15.Devmgmt.h" />
+    <ClInclude Include="16.Desk_cpl.h" />
+    <ClInclude Include="17.Dfrgui.h" />
+    <ClInclude Include="18.Dfrg_Win7.h" />
+    <ClInclude Include="19.Dialer.h" />
+    <ClInclude Include="20.Diskmgmt.h" />
+    <ClInclude Include="21.DVDplay.h" />
+    <ClInclude Include="22.Dxdiag.h" />
+    <ClInclude Include="23.Eudcedit.h" />
+    <ClInclude Include="24.Eventvwr.h" />
+    <ClInclude Include="25.Explorer.h" />
+    <ClInclude Include="26.Firewall.h" />
+    <ClInclude Include="27.FXSCOVER.h" />
+    <ClInclude Include="28.Fsmgmt.h" />
+    <ClInclude Include="29.Gpedit.h" />
+    <ClInclude Include="3.Appwiz.h" />
+    <ClInclude Include="0.Command_Set.h" />
+    <ClInclude Include="2.Ipconfig.h" />
+    <ClInclude Include="1.SystemInfo.h" />
+    <ClInclude Include="30.Hdwwiz.h" />
+    <ClInclude Include="31.Inetcpl.h" />
+    <ClInclude Include="32.Intl.h" />
+    <ClInclude Include="33.Iexpress.h" />
+    <ClInclude Include="34.Joy.h" />
+    <ClInclude Include="35.Logoff.h" />
+    <ClInclude Include="36.Lusrmgr.h" />
+    <ClInclude Include="37.Lpksetup.h" />
+    <ClInclude Include="38.magnify.h" />
+    <ClInclude Include="39.Mouse.h" />
+    <ClInclude Include="4.Control.h" />
+    <ClInclude Include="40.Mmsys.h" />
+    <ClInclude Include="41.MdSched.h" />
+    <ClInclude Include="42.Mmc.h" />
+    <ClInclude Include="43.Msconfig.h" />
+    <ClInclude Include="44.Msdt.h" />
+    <ClInclude Include="45.Msinfo32.h" />
+    <ClInclude Include="46.Mspaint.h" />
+    <ClInclude Include="47.Msra.h" />
+    <ClInclude Include="48.Mstsc.h" />
+    <ClInclude Include="49.NAPCLCFG.h" />
+    <ClInclude Include="5.Cleanmgr.h" />
+    <ClInclude Include="50.Ncpa.h" />
+    <ClInclude Include="51.Narrator.h" />
+    <ClInclude Include="52.Netplwiz.h" />
+    <ClInclude Include="53.Netstat.h" />
+    <ClInclude Include="54.Notepad.h" />
+    <ClInclude Include="55.Nslookup.h" />
+    <ClInclude Include="56.Odbcad32.h" />
+    <ClInclude Include="57.OptionalFeatures.h" />
+    <ClInclude Include="58.Osk.h" />
+    <ClInclude Include="59.Perfmon.h" />
+    <ClInclude Include="6.Certmgr.h" />
+    <ClInclude Include="60.Printmanagement.h" />
+    <ClInclude Include="61.Powercfg.h" />
+    <ClInclude Include="62.Rasphone.h" />
+    <ClInclude Include="63.Recdisc.h" />
+    <ClInclude Include="64.Resmon.h" />
+    <ClInclude Include="65.Rstrui.h" />
+    <ClInclude Include="66.Regedit.h" />
+    <ClInclude Include="67.Regedt32.h" />
+    <ClInclude Include="68.Rsop.h" />
+    <ClInclude Include="69.Sdclt.h" />
+    <ClInclude Include="7.Charmap.h" />
+    <ClInclude Include="70.Secpol.h" />
+    <ClInclude Include="71.Services.h" />
+    <ClInclude Include="72.Sysedit.h" />
+    <ClInclude Include="73.Ciadv.h" />
+    <ClInclude Include="74.Shrpubw.h" />
+    <ClInclude Include="75.Sndvol32.h" />
+    <ClInclude Include="76.Taskmgr.h" />
+    <ClInclude Include="77.Packager.h" />
+    <ClInclude Include="78.Winver.h" />
+    <ClInclude Include="79.Clipbrd.h" />
+    <ClInclude Include="8.Shutdown.h" />
+    <ClInclude Include="80.Sndrec32.h" />
+    <ClInclude Include="81.Tree.h" />
+    <ClInclude Include="82.Dir.h" />
+    <ClInclude Include="83.Delet_C.h" />
+    <ClInclude Include="9.Lock.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

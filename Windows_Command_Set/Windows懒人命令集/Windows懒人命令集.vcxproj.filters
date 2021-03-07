@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2.Ipconfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1.SystemInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3.Appwiz.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4.Control.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="0.Command_Set.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5.Cleanmgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6.Certmgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="7.Charmap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="8.Shutdown.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9.Lock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="10.Colorcpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11.Compmgmt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="12.Credwiz.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="13.Comexp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="14.Dccw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="15.Devmgmt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="16.Desk_cpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="17.Dfrgui.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18.Dfrg_Win7.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="19.Dialer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20.Diskmgmt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21.DVDplay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="22.Dxdiag.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="23.Eudcedit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="24.Eventvwr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="25.Explorer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="26.Firewall.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="27.FXSCOVER.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="28.Fsmgmt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="29.Gpedit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="30.Hdwwiz.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="31.Inetcpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="32.Intl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="33.Iexpress.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="34.Joy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="35.Logoff.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="36.Lusrmgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="37.Lpksetup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="39.Mouse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="40.Mmsys.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="38.Magnify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="41.MdSched.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="42.Mmc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="43.Msconfig.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="44.Msdt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="45.Msinfo32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="46.Mspaint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="47.Msra.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="48.Mstsc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="49.NAPCLCFG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="50.Ncpa.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="51.Narrator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="52.Netplwiz.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="53.Netstat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="54.Notepad.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="55.Nslookup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="56.Odbcad32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="57.OptionalFeatures.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="58.Osk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="59.Perfmon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="60.Printmanagement.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="61.Powercfg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="62.Rasphone.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="63.Recdisc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="64.Resmon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="65.Rstrui.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="66.Regedit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="67.Regedt32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="68.Rsop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="69.Sdclt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="70.Secpol.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="71.Services.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="72.Sysedit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="73.Ciadv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="74.Shrpubw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="75.Sndvol32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="76.Taskmgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="77.Packager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="78.Winver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="79.Clipbrd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="80.Sndrec32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="81.Tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="82.Dir.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="83.Delete_C.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3.Appwiz.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="2.Ipconfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1.SystemInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="4.Control.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="0.Command_Set.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="5.Cleanmgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="6.Certmgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="7.Charmap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="8.Shutdown.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="9.Lock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="10.Colorcpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="11.Compmgmt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="12.Credwiz.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="13.Comexp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="14.Dccw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="15.Devmgmt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="16.Desk_cpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="17.Dfrgui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="18.Dfrg_Win7.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="19.Dialer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="20.Diskmgmt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="21.DVDplay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="22.Dxdiag.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="23.Eudcedit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="24.Eventvwr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="25.Explorer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="26.Firewall.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="27.FXSCOVER.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="28.Fsmgmt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="29.Gpedit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="30.Hdwwiz.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="31.Inetcpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="32.Intl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="33.Iexpress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="34.Joy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="35.Logoff.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="36.Lusrmgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="37.Lpksetup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="39.Mouse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="40.Mmsys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="38.magnify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="41.MdSched.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="42.Mmc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="43.Msconfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="44.Msdt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="45.Msinfo32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="46.Mspaint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="47.Msra.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="48.Mstsc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="49.NAPCLCFG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="50.Ncpa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="51.Narrator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="52.Netplwiz.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="53.Netstat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="54.Notepad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="55.Nslookup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="56.Odbcad32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="57.OptionalFeatures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="58.Osk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="59.Perfmon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="60.Printmanagement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="61.Powercfg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="62.Rasphone.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="63.Recdisc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="64.Resmon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="65.Rstrui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="66.Regedit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="67.Regedt32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="68.Rsop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="69.Sdclt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="70.Secpol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="71.Services.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="72.Sysedit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="73.Ciadv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="74.Shrpubw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="75.Sndvol32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="76.Taskmgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="77.Packager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="78.Winver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="79.Clipbrd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="80.Sndrec32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="81.Tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="82.Dir.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="83.Delet_C.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
